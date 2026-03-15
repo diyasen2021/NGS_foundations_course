@@ -1,0 +1,21 @@
+{
+  "name": "NGS Workshop Environment",
+  "image": "ubuntu:22.04",
+  "postCreateCommand": "bash .devcontainer/setup.sh",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "yzhang.markdown-all-in-one",
+        "bierner.markdown-preview-github-styles"
+      ],
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "editor.wordWrap": "on"
+      }
+    }
+  },
+  "remoteEnv": {
+    "PATH": "/root/miniconda3/bin:${PATH}"
+  }
+}
