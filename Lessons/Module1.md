@@ -98,7 +98,12 @@ Next Generation Sequencing (also called second-generation or massively parallel 
 
 ### Illumina — Sequencing by Synthesis (SBS)
 
-Illumina is by far the most widely used NGS platform globally, dominating both research and clinical sequencing. Its chemistry is based on **reversible terminator sequencing by synthesis**. DNA fragments are attached to a flow cell surface and amplified locally to form dense clusters. During each sequencing cycle, fluorescently labelled reversible terminator nucleotides are incorporated one at a time. The fluorescence is imaged, the terminator is chemically removed, and the cycle repeats. This generates highly accurate short reads (75–300 bp) with error rates as low as **0.1%**.
+Illumina is by far the most widely used NGS platform globally, dominating both research and clinical sequencing. 
+- Its chemistry is based on **reversible terminator sequencing by synthesis**.
+- DNA fragments are attached to a flow cell surface and amplified locally to form dense clusters.
+- During each sequencing cycle, fluorescently labelled reversible terminator nucleotides are incorporated one at a time.
+- The fluorescence is imaged, the terminator is chemically removed, and the cycle repeats.
+- This generates highly accurate short reads (75–300 bp) with error rates as low as **0.1%**.
 
 Illumina instruments range from the small **MiSeq** (suitable for small genomes or targeted panels) to the ultra-high-throughput **NovaSeq X Plus**, capable of sequencing over 20,000 whole human genomes per year. For most UG and PG projects involving WGS, WES, RNA-seq, or ChIP-seq, Illumina data will be the primary data type encountered.
 
