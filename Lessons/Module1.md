@@ -105,11 +105,13 @@ Illumina is by far the most widely used NGS platform globally, dominating both r
 - The fluorescence is imaged, the terminator is chemically removed, and the cycle repeats.
 - This generates highly accurate short reads (75–300 bp) with error rates as low as **0.1%**.
 
-Illumina instruments range from the small **MiSeq** (suitable for small genomes or targeted panels) to the ultra-high-throughput **NovaSeq X Plus**, capable of sequencing over 20,000 whole human genomes per year. For most UG and PG projects involving WGS, WES, RNA-seq, or ChIP-seq, Illumina data will be the primary data type encountered.
+Illumina instruments range from the small **MiSeq** (suitable for small genomes or targeted panels) to the ultra-high-throughput **NovaSeq X Plus**, capable of sequencing over 20,000 whole human genomes per year. 
 
 ### Oxford Nanopore Technologies (ONT)
 
-Nanopore sequencing represents a fundamentally different approach. DNA or RNA is passed through a biological nanopore (a protein channel) embedded in a membrane. As individual bases move through the pore, they cause characteristic disruptions to an electrical current flowing across the membrane. These current signatures are decoded by a neural-network-based base caller into nucleotide sequences.
+Nanopore sequencing represents a fundamentally different approach. 
+- DNA or RNA is passed through a biological nanopore (a protein channel) embedded in a membrane.
+- As individual bases move through the pore, they cause characteristic disruptions to an electrical current flowing across the membrane. --- These current signatures are decoded by a neural-network-based base caller into nucleotide sequences.
 
 The major advantage of nanopore sequencing is **read length** — reads can span from a few kilobases to over **4 megabases**, making it exceptional for resolving repetitive regions, structural variants, and complete chromosome-scale assemblies. The **MinION** device is roughly the size of a USB stick and has been used in field settings and even on the International Space Station. The main limitation has historically been a higher raw error rate (~5–10%), though recent chemistry and basecalling improvements have substantially closed this gap.
 
