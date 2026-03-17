@@ -89,7 +89,8 @@ Its fundamental limitation is **throughput** — it can only sequence one fragme
 
 Next Generation Sequencing (also called second-generation or massively parallel sequencing) emerged in the mid-2000s and fundamentally changed the field. Rather than sequencing one DNA fragment at a time, NGS sequences **millions of fragments simultaneously** in a single instrument run. This massive parallelisation reduced the cost of sequencing a human genome from approximately **$3 billion** (Human Genome Project, completed 2003) to under **$1,000** today — a cost reduction faster than Moore's Law.
 
-The key conceptual difference is that NGS breaks the DNA into many small fragments, sequences them all in parallel, and then uses computational alignment to reassemble the sequence by mapping each short read back to a reference genome. This introduces two important trade-offs: reads are much shorter than Sanger reads (typically **75–300 bp** for Illumina), and the analysis requires significant bioinformatics expertise.
+- The key conceptual difference is that NGS breaks the DNA into many small fragments, sequences them all in parallel, and then uses computational alignment to reassemble the sequence by mapping each short read back to a reference genome.
+- This introduces two important trade-offs: reads are much shorter than Sanger reads (typically **75–300 bp** for Illumina), and the analysis requires significant bioinformatics expertise.
 
 ---
 
